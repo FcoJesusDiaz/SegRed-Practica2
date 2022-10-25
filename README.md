@@ -13,12 +13,9 @@ regla si no se han creado los directorios antes
 
 # Ejecución del programa
 - Una vez compilado el programa tendremos a nuestra disposicion 2 tests
-- Se ejecutará el primero mediante el comando 'test1'. Este test tratará de desencriptar un archivo gpg cuya clave es 'bb' mediante un diccionario de palabras
-que contiene todas las combinaciones posibles de 4 caracteres para las letras minúsculas. El tiempo de ejecución es de 3 minutos y medio para un ordenador
-con 4 núcleos y hyperthreading
+- Se ejecutará el primero mediante el comando 'test1'. Este test tratará de desencriptar un archivo gpg cuya clave es 'bb' mediante un diccionario de palabras que contiene todas las combinaciones posibles de 4 caracteres para las letras minúsculas.
 - Se ejecutará el segundo mediante el comando 'test2'. Ahora la contraseña es de 4 caracteres ('sgrd') y se utiliza el mismo diccionario de palabras
-de antes. El tiempo de ejecución es de unas 30 horas para un ordenador con 4 núcleos y hyperthreading. Por lo general, de media, se realizarán 475 consultas cada 3 minutos y medio.
-
+de antes.
 # NOTA
 Debido al uso de llamadas al sistema como system(). Los manejadores de señal para el programa no funcionan. Por lo que una vez ejecutado el programa, si
 se quiere parar se tendrá que realizar mediante la línea de comandos con el comando 'kill -9 <pid del programa>'.
